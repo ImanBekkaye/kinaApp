@@ -15,6 +15,7 @@ function Application() {
     return (
         user ?
             <ProfilePage />
+
             :
             <Router>
                 <SignUp path="signUp" />
